@@ -1,0 +1,87 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+/*nav related style */
+header{
+  background-color: antiquewhite;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+nav{
+  display: flex;
+  gap: 500px;
+  margin-left: 200px;
+  justify-content: space-between;
+}
+nav ul{
+  display: flex;
+  gap: 50px;
+  text-align: end;
+  align-items: center;
+}
+nav li{
+  list-style: none;
+  margin-right: 30px;;
+  font-size: 17px;
+  
+}
+nav a{
+  text-decoration: none;
+  color: black;
+}
+nav h1{
+  font-style: bold;
+  font-size: 40px;
+}
+.text-primary{
+  color: darkorange;
+}
+.btn-primary{
+  background-color: darkorange;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  border: 0px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+/* banner related style */
+
+.banner{
+  display: flex; 
+  justify-content: space-between;
+  
+  
+}
+.main-pic{
+  background-image: url(/header_bg.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+
+}
+
+/*main related style*/
+.div-left{
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.info{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+main{
+  text-align: center;
+  margin-top: 150px;
+}
+.bio{
+  margin-top: 100px;
+}
+.skills{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
